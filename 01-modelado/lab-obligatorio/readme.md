@@ -4,16 +4,16 @@
 
 ![diagrama de chen caso obligatorio](chen-obligatorio.png)
 ## Diagrama físico
-
+![diagrama fisico caso obligatorio](fisico-obligatorio.png)
 ## Explicación y patrones
 
 ### Modelado
-He partido de la entidad Courses, que es la entidad principal de la base de datos. Apartir de esta he ido definiendo el resto de entiedades y las relaciones entre ellas.
+He partido de la entidad Courses, que es la entidad principal de la base de datos. Apartir de esta he ido definiendo el resto de entiedades y las relaciones entre ellas. He preferido mantener las entidades con  menos atributos y que en el futuro se agreguen más atributos en función del uso de la aplicación. De esta manera quedan más claros las entidades y relaciones para una primera versión. 
 
 ### Entidades
-- Courses
-- Videos
+- Courses: 
 - Authors
+- Videos
 - Articles
 
 ### Relaciones
